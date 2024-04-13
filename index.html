@@ -9,7 +9,7 @@
 <body>
 
 <h1> ENSC 427: Communication Networks<br>Spring 2024<br>Group 2 </h1>
-<h2> Determining the effects of DDOS attacks on Wifi and Ethernet </h2>
+<h2> Investigating the Effects of DDoS Attacks on End Users Over Different Ethernet Mediums </h2>
 <p> Wong, Joshua		301374810			jcw49@sfu.ca </p>
 <p> Ma, Joshua		301357872			jma154@sfu.ca </p>
 <p> Speers, Andrew		301362782			aspeers@sfu.ca </p>
@@ -17,7 +17,8 @@
 <hr>
 
 <p> <b> <font size="+2"> Abstract </font> </b> </p>
-<p> Distributed denial-of-service (DDoS) attacks are a great threat in the modern day and can have a major effect on people using the free internet since they can prevent individuals from accessing services and websites. Wifi and Ethernet connection are how a vast majority in how people access the internet and this project plans to analyze the effects of a DDoS attack on both of these communication systems. This study will do simulations using ns-3 software to see how both Wifi and Ethernet connection perform under throttle of a DDoS attack with changing variables of signal speed, strength and throughput. This study hopes to draw conclusions about the differences between Wifi and Ethernet while under the load of a DDoS attack and to determine the optimal variable settings to maximize bandwidth during these attacks.   </p>
+<p> Distributed denial-of-service (DDoS) attacks are a great threat in the modern day and can have a major effect on people using the free internet since they can prevent individuals from accessing services and websites. Ethernet connections are how a vast majority of people access the Internet and this project analyzes how different ethernet cables are affected by DDoS attacks using ns-3 simulations. This study hopes to draw relationships between the number of attacker bots and the data rate of a given ethernet cable. After proceeding with our experimentation and simulations, we found that the relationship between these two variables is an inverse linear relationship (1/t). As the data rate of the cable increases, the delay caused by DDoS attack congestion decreases. This relationship was determined by measuring the time taken for a packet to be sent to a server and received back during a DDoS attack. We conclude that choosing an ethernet cable with faster data rates does improve performance under the load of a DDoS attack, however, our simulation environment was not very realistic. Despite this, the relationships drawn from this study may still be used in real world wired network applications. 
+   </p>
 <p> <b> <font size="+2"> References </font> </b> </p>
 <p>[1] I. Gupta and A. Kaur., “Comparative Throughput of WiFi & Ethernet LANs using OPNET MODELER,” IJCST Vol. 1, Issue 2, Dec. 2010. [Online]. Available: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=1283e12c7a0797d64038271155c62a7c0d0716e0 <br>
 
